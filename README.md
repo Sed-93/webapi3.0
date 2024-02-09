@@ -10,15 +10,15 @@ Detta projekt, `webapi3.0`, är en .NET Core-applikation som tillhandahåller en
 
 För att köra och testa applikationen på din lokala maskin, följ dessa steg:
 
-1. Klona GitHub-repot: `bash git clone https://github.com/Sed-93/webapi3.0.git`.
-2. Gå till projektmappen: `bash cd webapi3.0`.
+1. Klona GitHub-repot: ```bash git clone https://github.com/Sed-93/webapi3.0.git```.
+2. Gå till projektmappen: ```bash cd webapi3.0```.
 3. Öppna projektet i din favorit C#-utvecklingsmiljö, till exempel Visual Studio eller VS Code.
-4. Bygg projektet med kommandot: `bash dotnet build`.
-5. Starta applikationen med kommandot: `bash dotnet run`.
+4. Bygg projektet med kommandot: ```bash dotnet build```.
+5. Starta applikationen med kommandot: ```bash dotnet run```.
 
 När applikationen körs, startas en lokal webbserver. Du kan interagera med applikationen genom att besöka följande endpoints i din webbläsare: `http://localhost:5000/encrypt/{dinText}/{shift}` för kryptering och `http://localhost:5000/decrypt/{dinText}/{shift}` för avkryptering.
 
-6. Kör enhetstesterna med kommandot: `bash dotnet test`.
+6. Kör enhetstesterna med kommandot: ```bash dotnet test```.
 
 Kontrollera resultaten av enhetstesterna för att verifiera att all funktionalitet fungerar som förväntat.
 
@@ -28,7 +28,7 @@ Applikationen inkluderar en uppsättning enhetstester som använder xUnit-testra
 
 ## Tillgång till Applikationen
 
-När applikationen har distribuerats till AWS Elastic Beanstalk, kan du interagera med den genom att besöka följande URL: `http://awsapi-env.eba-pqhkvtmb.eu-north-1.elasticbeanstalk.com/`. Ingen inloggning krävs för att använda applikationen.
+När applikationen har distribuerats till AWS Elastic Beanstalk, kan du interagera med den genom att besöka följande URL: ```http://awsapi-env.eba-pqhkvtmb.eu-north-1.elasticbeanstalk.com/```. Ingen inloggning krävs för att använda applikationen.
 
 För att använda applikationen, navigera till följande endpoints i din webbläsare:
 
